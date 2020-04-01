@@ -10,3 +10,15 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+  h1, p {
+    color: white
+  }
+}
+
